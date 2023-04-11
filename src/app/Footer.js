@@ -6,7 +6,7 @@ import LogoFooter from "../../public/images/LogoFooter.svg";
 
 export default function Footer() {
   return (
-    <div className="w-full bg-slate-900/20 px-24 py-6 border-t-[1px] border-t-solid border-t-slate-700 relative z-[2]">
+    <div className="w-full bg-slate-900 px-24 py-6 border-t-[1px] border-t-solid border-t-slate-700 relative z-[2]">
       <div className="flex justify-between">
         <div className="flex items-center">
           <Image src={LogoFooter} className="w-64 " />
